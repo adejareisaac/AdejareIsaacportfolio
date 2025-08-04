@@ -1,0 +1,159 @@
+<!--
+  Adisaac Tech Portfolio
+  Author: Ayodele Adejare Isaac
+  This is a personal portfolio website showcasing web development, design, and admin support skills.
+  All comments in this file are written by a human for clarity and maintainability.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adisaac Tech Portfolio</title>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Adejare Isaac</a>
+        <ul>
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">My Projects</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Animated Bars Background -->
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- Home Section: Hero and Intro -->
+    <section class="home">
+        <div class="home-info">
+            <h1>Ayodele Adejare Isaac</h1>
+            <p class="tagline">Creative Tech for Purpose-Driven People</p>
+            <!-- Rotating professional titles -->
+            <h2>I am a
+                <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:3;" data-text="Graphics Designer">Graphics Designer</span>
+                <span style="--i:2;" data-text="Poet & Storyteller">Poet & Storyteller</span>
+                <span style="--i:1;" data-text="Business & Admin Assistant">Business & Admin Assistant</span>
+            </h2>
+            <p>I design websites, craft visuals, write with purpose, and offer solid admin support — helping brands, individuals, NGOs, and churches shine online. Beyond the tech, I’m a poet — because some things are built to connect, not convert.</p>
+            <div class="btn-sci">
+                <!-- Download CV button -->
+                <a href="pdf/Ayodele-Adejare-Isaac-FlowCV-Resume-20250804.pdf" class="btn" target="_blank">Download My CV</a>
+                <div class="sci">
+                    <!-- Social media icons -->
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Image -->
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="img/AdejareIsaacA.png" alt="CEO Adisaac Ltd">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me home">
+        <div class="about-img home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="img/AdejareIsaac2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="about-info home-info">
+            <h1>About Me</h1>
+            <p>Hi, I’m Adejare Isaac, a creative tech enthusiast with a passion for building beautiful, functional websites and crafting compelling visuals. With a background in frontend development and graphic design, I help brands and individuals establish their online presence with style and purpose.</p>
+            <p>When I’m not coding or designing, you can find me writing poetry or stories that connect with the heart. I believe in the power of creativity to inspire and uplift, whether through tech or the written word.</p>
+            <p>Let’s create something amazing together!</p>
+        </div>
+    </section>
+
+    <!-- Projects Section (add your projects here) -->
+    <section class="projects">
+        <!-- Example: Add project cards here in the future -->
+    </section>
+
+    <!-- Services/Interests Section -->
+   <section class="services-section">
+    <div class="services-wrapper">
+        <h2>Interests</h2>
+        <ul class="services-list">
+            <!-- Web Development Interest -->
+            <li>
+                <img src="img/programming-background-with-html-text.webp" alt="Website Development">
+                <div>
+                    <strong>Web Develoment</strong>
+                    <p>Exploring Modern Frameworks and best practices.</p>
+                </div>
+            </li>
+            <!-- Design Interest -->
+            <li>
+                <img src="img/design-software-resize-icon-concept.webp" alt="Design">
+                <div>
+                    <strong>Design</strong>
+                    <p>Branding, flyers, social posts, UI/UX.</p>
+                </div>
+            </li>
+            <!-- Admin Support Interest -->
+            <li>
+                <img src="img/VA.webp" alt="Admin Support">
+                <div>
+                    <strong>Administrative Support</strong>
+                    <p>Docs, emails, workflows, project management.</p>
+                </div>
+            </li>
+          </ul>
+    </div>
+</section>
+
+<!-- Project Section: Showcasing two selected works -->
+<section id="project">
+    <h1>Projects</h1>
+    <div class="project-wrapper">
+        <div class="project-card">
+            <img src="img/programming-background-with-html-text.webp" alt="NGO Website" class="project-img">
+            <div class="project-content">
+                <h3>Art Landing Page</h3>
+                <p>A clean, scroll-smooth page that feels like a digital art gallery — minimalist, bold, and built to showcase creativity.</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="img/design-software-resize-icon-concept.webp" alt="Brand Kit" class="project-img">
+            <div class="project-content">
+                <h3>Hoodies Landing Page</h3>
+                <p>Streetwear vibes with bold text, sharp grids, and animated flair. Designed to sell hoodies with style and speed.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End of main content -->
+
+</body>
+</html>
