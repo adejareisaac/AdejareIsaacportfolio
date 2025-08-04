@@ -2,7 +2,8 @@
 
 ## Overview
 
-Adisaac Tech Portfolio is a personal portfolio website for Ayodele Adejare Isaac. It showcases web development, graphics design, and business/admin support skills, with a focus on creativity, professionalism, and purpose-driven solutions.
+Adejare Isaac's Portfolio is a personal portfolio website for Ayodele Adejare Isaac. It showcases web development, graphics design, and business/admin support skills, with a focus on creativity, professionalism, and purpose-driven solutions. This project, is an individual work.
+The live page can be viewed via: https://adejareisaac.github.io/AdejareIsaacportfolio/
 
 ## Features
 
@@ -34,3 +35,5 @@ Adisaac Tech Portfolio/
 
 - Designed and developed by Ayodele Adejare Isaac
 - Icons by [Font Awesome](https://fontawesome.com/)
+
+
