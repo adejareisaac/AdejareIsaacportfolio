@@ -1,8 +1,7 @@
 <!--
-  Adi Portfolio
+  Adejare Isaac's Portfolio
   Author: Ayodele Adejare Isaac
   This is a personal portfolio website showcasing web development, design, and admin support skills.
-  All comments in this file are written by a human for clarity and maintainability.
 -->
 
 <!DOCTYPE html>
@@ -22,10 +21,10 @@
     <nav class="navbar">
         <a href="#" class="logo">Adejare Isaac</a>
         <ul>
-            <li class="active"><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">My Projects</a></li>
-            <li><a href="">Services</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#project">My Projects</a></li>
+            <li><a href="#service">Services</a></li>
             <li><a href="">Contact</a></li>
         </ul>
     </nav>
@@ -58,10 +57,8 @@
                 <a href="pdf/Ayodele-Adejare-Isaac-FlowCV-Resume-20250804.pdf" class="btn" target="_blank">Download My CV</a>
                 <div class="sci">
                     <!-- Social media icons -->
-                    <a href=""><i class="fa-brands fa-github"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/adejareisaac"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/adisaac"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -77,7 +74,7 @@
     </section>
 
     <!-- About Me Section -->
-    <section class="about-me home">
+    <section class="about-me home" id="about-me">
         <div class="about-img home-img">
             <div class="img-box">
                 <div class="img-item">
@@ -94,13 +91,8 @@
         </div>
     </section>
 
-    <!-- Projects Section (add your projects here) -->
-    <section class="projects">
-        <!-- Example: Add project cards here in the future -->
-    </section>
-
     <!-- Services/Interests Section -->
-   <section class="services-section">
+   <section class="services-section" id="service">
     <div class="services-wrapper">
         <h2>Interests</h2>
         <ul class="services-list">
@@ -132,7 +124,7 @@
     </div>
 </section>
 
-<!-- Project Section: Showcasing two selected works -->
+<!-- Project Section -->
 <section id="project">
     <h1>Projects</h1>
     <div class="project-wrapper">
@@ -152,6 +144,32 @@
         </div>
     </div>
 </section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-flex">
+            <div class="footer-info">
+                <h2>Get in Touch</h2>
+                <p>Have a project in mind or just want to say hi? I’d love to hear from you!</p>
+                <p>Email: <a href="mailto:adisaacservices@gmail.com">adisaacservices@gmail.com</a></p>
+                <p>&copy; 2024 Ayodele Adejare Isaac. All rights reserved.</p>
+                <p>Crafted with passion by Ayodele Adejare Isaac</p>
+                <div class="social-icons">
+                    <a href="https://github.com/adejareisaac"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/adisaac"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" action="https://formsubmit.co/adisaacservices@gmail.com" method="POST" enctype="text/plain">
+                <h3>Contact Me</h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" id="phone" placeholder="Your Phone (optional)" pattern="[0-9\-\+\s]*" inputmode="tel">
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</footer>
 
 <!-- End of main content -->
 
